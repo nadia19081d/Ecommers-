@@ -1,0 +1,23 @@
+@import '../../index.scss';
+
+.form-container__title {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-container {
+    margin-left: 20%;
+    .form {
+        margin: 10px;
+        .form__form-group {
+            @include center;
+            margin-bottom: 20px;
+        }
+        .form__form-group__label {
+            margin-right: 10px;
+        }
+        .form__form-group__button {
+            padding: 5px;
+        }
+    }
+}

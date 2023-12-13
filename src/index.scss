@@ -1,0 +1,17 @@
+@import './sass/partials/colors.scss';
+@import './sass/base/resets.scss';
+@import './sass/partials/mixins.scss';
+@import './sass/base/base.scss';
+
+
+h1 {
+  color: $primary-color;
+}
+
+.main-content {
+  display: flex;
+  position: absolute;
+  .main-aside{
+    position: fixed;
+  }
+}
